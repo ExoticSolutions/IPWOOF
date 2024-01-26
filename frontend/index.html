@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../backend/styles.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>IPWhiff</title>
+  </head>
+  <body id="root">
+    <div>
+      <div class="border border-stone-800 bg-stone-800 p-3 flex justify-between">
+        <div class="brand-name flex justify-start gap-2">
+          <h1>🐕</h1>
+          <h1 class="">IPWoof</h1>
+        </div>
+        <div class="flex justify-center me-5">
+          <a href=""#"" class="github-link">Github</a>
+        </div>
+      </div>
+      <div>
+        <div class="text-center">
+          <h1 class="mt-10 main-title">IPWhiffer</h1>
+        </div>
+        <div class="mt-5 ms-auto me-auto main-content-border border border-stone-700 bg-stone-900">
+          <div class="mt-5">
+            <h1 class="text-center border-content-title">Click button to get IP data:</h1>
+            <div class="mt-5 text-center">
+              <button class="ip-data-btn">Get IP Data</button>
+            </div>
+          </div>
+
+          <div class="data-output text-center mt-10"></div>
+
+        </div>
+      </div>
+    </div>
+    <script type="module" src="../backend/functionalities.js"></script>
+  </body>
+</html>
